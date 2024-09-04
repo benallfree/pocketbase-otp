@@ -1,5 +1,19 @@
 {
   "name": "pocketbase-otp",
+  "version": "0.0.2",
+  "description": "PocketBase One Time Password Hook",
+  "author": {
+    "name": "Ben Allfree"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/benallfree/pocketbase-otp.git"
+  },
+  "license": "MIT",
+  "homepage": "https://github.com/benallfree/pocketbase-otp",
+  "bugs": {
+    "url": "https://github.com/benallfree/pocketbase-otp/issues"
+  },
   "main": "index.js",
   "devDependencies": {
     "@types/bun": "latest"
@@ -14,6 +28,5 @@
     "pb_hooks/**",
     "pb_migrations/**",
     "LICENSE.txt"
-  ],
-  "version": "0.0.1"
+  ]
 }
