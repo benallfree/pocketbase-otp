@@ -1,0 +1,19 @@
+{
+  "name": "pocketbase-otp",
+  "main": "index.js",
+  "devDependencies": {
+    "@types/bun": "latest"
+  },
+  "peerDependencies": {
+    "typescript": "^5.0.0"
+  },
+  "files": [
+    "index.js",
+    "package.json",
+    "README.md",
+    "pb_hooks/**",
+    "pb_migrations/**",
+    "LICENSE.txt"
+  ],
+  "version": "0.0.1"
+}
