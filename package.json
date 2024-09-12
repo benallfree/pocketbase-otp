@@ -18,7 +18,7 @@
     "watch": "pocodex watch",
     "build": "pocodex build"
   },
-  "main": "dist/index.js",
+  "main": "dist/main.js",
   "files": [
     "dist"
   ],

@@ -3,22 +3,6 @@
  */
 const plugin = ({ migrate, log }) => {
   return {
-    init(dao) {
-      const { error } = log
-      dbg({ routerAdd })
-
-      routerAdd('POST', '/api/otp/auth', (c) => {
-        return require('pocketbase-otp/dist/main').AuthHandler(c)
-      })
-      routerAdd('POST', '/api/otp/verify', (c) => {
-        return require('pocketbase-otp/dist/main').VerifyHandler(c)
-      })
-    },
-    install() {},
-    uninstall() {},
-    files() {
-      return {}
-    },
     migrations() {
       return {
         create_otp_table: migrate(
