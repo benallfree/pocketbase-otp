@@ -3,6 +3,11 @@
  */
 const plugin = ({ migrate, log }) => {
   return {
+    files() {
+      return {
+        'pb_hooks/pocketbase-otp.pb.js': `require('pocketbase-otp/dist/hooks.pb')`,
+      }
+    },
     migrations() {
       return {
         create_otp_table: migrate(

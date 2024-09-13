@@ -173,6 +173,5 @@ dist
 
 # Finder (MacOS) folder config
 .DS_Store
-test/pb_data
-test/pb_migrations
-test/pb_hooks
+test/pb_*
+.vscode
