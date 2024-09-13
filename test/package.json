@@ -1,7 +1,6 @@
 {
   "name": "test",
   "dependencies": {
-    "pocketpages": "link:pocketbase-otp",
-    "pocodex": "link:pocodex"
+    "pocodex": "^0.0.1"
   }
 }
