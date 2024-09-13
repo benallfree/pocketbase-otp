@@ -16,7 +16,8 @@
   },
   "scripts": {
     "watch": "pocodex watch",
-    "build": "pocodex build"
+    "build": "pocodex build",
+    "prepare": "pocodex build"
   },
   "main": "dist/plugin.js",
   "files": [
