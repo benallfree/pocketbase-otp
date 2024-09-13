@@ -1,6 +1,6 @@
 {
   "name": "pocketbase-otp",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "description": "PocketBase One Time Password Hook",
   "author": {
     "name": "Ben Allfree"
